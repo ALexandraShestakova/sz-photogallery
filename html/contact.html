@@ -4,7 +4,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
+  <title>Контакты - Фотогалерея</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' href='style.css'>
   <script src='main.js'></script>
@@ -19,28 +19,49 @@
         <ul>
           <li><a href="/">Главная</a></li>
           <li><a href="/about.html">Обо мне</a></li>
-          <li><a href="/team.html">Команда</a></li>
-          <li><a href="/diary.html">Журнал</a></li>
           <li><a href="/contact.html">Обратная связь</a></li>
         </ul>
       </nav>
 
     </header>
     <footer>
-      Футер
+      <p>By AlexandraShestakova</p>
+      <a href="https://github.com/ALexandraShestakova/sz-photogallery" target="_blank">GitHub</a>
     </footer>
   </div>
   <section class="inner team">
-    <div class="card">
+    <div class="card" style="height:100%;">
       <div style="padding:16px 16px 8px 16px;">
-        <h2 style="margin:0;">Контакты?</h2>
+        <h2 style="margin:0;">Контакты</h2>
       </div>
       <hr />
-      <div style="padding: 0px 16px 16px 16px;">
-        <p>Здесь тоже текст</p>
+      <div style="padding: 0px 16px 16px 16px; display:flex;flex-direction:column;height: calc(100% - 70px);">
+        <p>Меня можно найти здесь:</p>
+        <div style="position:relative;overflow:hidden;flex:1"><a
+            href="https://yandex.ru/maps/10959/kamishin/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Камышин</a><a
+            href="https://yandex.ru/maps/10959/kamishin/search/%D0%BA%D0%B0%D0%BC%D1%8B%D1%88%D0%B8%D0%BD/?ll=45.469175%2C50.069681&sll=44.516930%2C48.707073&sspn=0.493011%2C0.191779&utm_medium=mapframe&utm_source=maps&z=12.42"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты</a><iframe
+            src="https://yandex.ru/map-widget/v1/-/CKsTmNLB" width="100%" frameborder="1"
+            allowfullscreen="true" style="position:relative;"></iframe></div>
+        <p>Но хотелось бы быть здесь:</p>
+        <div style="position:relative;overflow:hidden;flex:1"><a
+            href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+            href="https://yandex.ru/maps/2/saint-petersburg/search/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3/?ll=30.399621%2C59.927095&utm_medium=mapframe&utm_source=maps&z=10.75"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты</a><iframe
+            src="https://yandex.ru/map-widget/v1/-/CKsTJO0T" width="100%" frameborder="1"
+            allowfullscreen="true" style="position:relative;"></iframe></div>
       </div>
     </div>
   </section>
 </body>
+
+<style>
+  iframe {
+    border:none;
+    height:100%;
+  }
+</style>
 
 </html>

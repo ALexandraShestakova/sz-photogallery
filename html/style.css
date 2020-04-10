@@ -58,10 +58,6 @@ ul {
   margin: 0;
 }
 
-header ul li {
-  padding: 16px 0;
-}
-
 /* Конец Общие стили */
 
 /* Типография */
@@ -92,6 +88,19 @@ h1 {
 
 .font-uppercase {
   text-transform: uppercase;
+}
+
+a {
+  color: #0D47A1;
+}
+header nav ul li a {
+  color: #0D47A1;
+  text-decoration: none;
+  padding: 16px 8px;
+  display:block;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
 }
 
 /* Конец Типография */
@@ -192,6 +201,7 @@ h1 {
 section.inner {
   padding: 0;
   flex: 1;
+  overflow-y: auto;
 }
 
 .card {
@@ -199,7 +209,7 @@ section.inner {
   box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.51);
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .card p:last-child {
   margin-bottom: 0;
